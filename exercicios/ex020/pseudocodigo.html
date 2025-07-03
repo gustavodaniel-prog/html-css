@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras pseudo class</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:rgb(0, 255, 136);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+  a:visited{
+    color:darkred;
+  }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(168, 168, 32);
+        }
+        a::before{
+            content: '➞';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" target="_black">Repositório do Github </a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" target="_black">Canal no youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_black">Site do curso em video</a></li>
+        <li><a href="https://www.adorocinema.com/vod/" target="_black">baby</a></li>
+    </ul>
+
+</body>
+
+</html>
