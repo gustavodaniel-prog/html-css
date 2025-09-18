@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link rel="stylesheet" href="estilo/style.css" media="all">
-    <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation:landscape)">
+    
+
 </head>
 <style>
-    /*declarações gerais*/
-    * {
+        /*configuração geral*/
+  * {
         margin: 0px;
         padding: 0px;
     }
@@ -31,24 +30,28 @@
         padding: 10px;
     }
 
-    /*declarações retrato*/
-    @media screen and(orientation:portrait) {
+    /*configuração retrato*/
+    @media screen and (orientation: portrait) {
         body {
-            background-image: url(../img/cev-portrait.jpg );
+            background-image: url(img/cev-portrait.jpg );
             background-position: center bottom;
         }
+
     }
 
-
-    /*declarações paissagem*/
-    @media screen and(orientation: landscape) {
+    /*configuração paisagem*/
+    @media screen and (orientation: landscape) {
 
         body {
-            background-image: url(../img/cev-landscape.jpg);
+            background-image: url(img/cev-landscape.jpg);
             background-position: left bottom;
         }
+
+
     }
 </style>
+
+    
 
 <body>
     <h1>Mude a orientação do seu dispositivo</h1>
